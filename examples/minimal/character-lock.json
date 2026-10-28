@@ -1,0 +1,32 @@
+{
+  "character_id": "test",
+  "master_sprite": "master.png",
+  "canvas": {
+    "width": 16,
+    "height": 16
+  },
+  "palette": [],
+  "palette_policy": "strict",
+  "lock_first_frame": true,
+  "fixed_regions": [
+    {
+      "name": "face",
+      "rect": [
+        5,
+        4,
+        6,
+        5
+      ]
+    }
+  ],
+  "region_exceptions": {},
+  "tolerances": {
+    "max_anchor_dx_px": 3,
+    "max_anchor_dy_px": 3,
+    "max_bbox_width_delta_pct": 0.3,
+    "max_bbox_height_delta_pct": 0.3,
+    "max_changed_pixel_ratio_warning": 0.8,
+    "max_semitransparent_ratio_warning": 0.0
+  },
+  "master_sha256": "4dd40b3c5dcf418cc0c178dc9c28340114b3479fed2c30ec6f74e4874b972605"
+}

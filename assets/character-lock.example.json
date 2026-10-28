@@ -1,0 +1,28 @@
+{
+  "character_id": "gato_exemplo",
+  "master_sprite": "../personagens/gato/master.png",
+  "master_sha256": "",
+  "canvas": { "width": 64, "height": 64 },
+  "identity_notes": [
+    "Olhos amendoados, nariz rosa, orelhas triangulares",
+    "Mesmo contorno, pelagem, manchas e paleta em todos os quadros"
+  ],
+  "allowed_changes": ["rabo", "olhos ao piscar"],
+  "palette": [],
+  "palette_policy": "strict",
+  "lock_first_frame": true,
+  "fixed_regions": [
+    { "name": "corpo_estatico", "rect": [14, 22, 30, 28], "max_changed_pixels": 0 }
+  ],
+  "region_exceptions": {
+    "frame_03.png": []
+  },
+  "tolerances": {
+    "max_anchor_dx_px": 3,
+    "max_anchor_dy_px": 3,
+    "max_bbox_width_delta_pct": 0.30,
+    "max_bbox_height_delta_pct": 0.30,
+    "max_changed_pixel_ratio_warning": 0.80,
+    "max_semitransparent_ratio_warning": 0.0
+  }
+}
